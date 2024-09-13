@@ -1,0 +1,87 @@
+#footer {
+    background-color: #121212;
+    color: #e0e0e0;
+    padding: 20px;
+}
+
+.footer__info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.footer__info img {
+    width: 200px;
+    height: auto;
+}
+
+.footer__info div {
+    max-width: 500px;
+}
+
+.footer__info p {
+    margin: 0 0 10px 0;
+}
+
+.footer__info form {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__info input[type="email"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    outline: none;
+}
+
+.button--pink {
+    background-color: #1ae4bf;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button--pink:hover {
+    background-color: #c2185b;
+}
+
+.button--pink:active {
+    background-color: #c2185b;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #333;
+    color: #e0e0e0;
+}
+
+table td {
+    border-bottom: 1px solid #555;
+    color: #e0e0e0;
+}
+
+table a {
+    color: #1ae4bf;
+    text-decoration: none;
+}
+
+table a:hover {
+    text-decoration: underline;
+}

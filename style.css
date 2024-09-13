@@ -1,0 +1,97 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 20px;
+}
+
+.header__navigation {
+  display: flex;
+  align-items: center;
+}
+
+nav ul { 
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+
+nav ul a { 
+  color: #1ae4bf;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header__settings {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+}
+
+.header__settings div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: 'Jost', sans-serif;
+  font-weight: 400;
+  color: #454868;
+
+}
+.header__settings button {
+  background-color: #1ae4bf;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  border: none; 
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.header__settings button:hover {
+  background-color: #c2185b;
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+.header__settings button:active {
+  background-color: #3e8e41;
+  transform: translateY(2px);
+}
+
+.container {
+font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+  color:#c2185b;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.row {
+  display: flex;
+}
+
+.col-4 {
+  flex: 50%;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+.display-1:hover {
+  color:#c2185b;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+

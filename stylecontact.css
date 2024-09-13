@@ -1,0 +1,57 @@
+main {
+    padding: 20px;
+
+}
+
+/* Estilos para la tarjeta */
+.card {
+    background-color: #181212;
+    border-radius: 8px;
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px;
+    box-shadow: 0 0 8px #1ae4bf;
+
+}
+
+.card:hover {
+    transform: scale(110%);
+    transition: 2s;
+}
+
+/* Centrar el título principal */
+.contacta {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: #1ae4bf; /* Color de los títulos principales */
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+.contacta span {
+    color: #c2185b; /* Color de acento para la palabra "Nos" */
+}
+
+.card-title,
+.card-subtitle {
+    text-align: center;
+}
+
+form .btn {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input, textarea{
+    box-shadow: 0 0 3px #1ae4bf;
+}

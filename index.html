@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre Nosotros</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="footer.css">
+</head>
+<body>
+  <header>
+    <div class="header__navigation">
+      <img src="Pic/logo_perros-removebg-preview.png" alt="Logo Blog de Perros" width="100" height="100">
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="sobreNosotros.html">Sobre nosotros</a></li>
+          <li><a href="contactUs.html">Contáctenos</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="header__settings">
+      <button>Ingresar</button>
+    </div>
+  </header
+  <main class="container">
+    <h1>¡Descubre las Razas de Perros!</h1>
+    <h3>Integrantes: Charline, Eduard, Mariana y Nelly</h3>
+    <p>Esta página te muestra diferentes razas de perros de acuerdo a sus tamaños. Al dar clic en el tamaño del perro, se desplegará la imagen y la descripción del perrito o sus características.</p>
+
+    <div class="row">
+      <!-- Extra Grande -->
+      <div class="col-4">
+        <h1 class="display-1" onclick="showImage(this)">Extra Grande</h1>
+        <h3>Gran Danés</h3>
+        <img src="Pic/gran_danes.jpg" class="img-thumbnail" style="display: none;">
+        <p class="description" style="display: none;">Descripción: El Gran Danés es conocido por su tamaño y gentileza.</p>
+      </div>
+
+      <!-- Grande -->
+      <div class="col-4">
+        <h1 class="display-1" onclick="showImage(this)">Grande</h1>
+        <h3>Pastor Alemán</h3>
+        <img src="Pic/pastor_aleman.jpg" class="img-thumbnail" style="display: none;">
+        <p class="description" style="display: none;">Descripción: Un perro leal y protector, ideal para la familia.</p>
+      </div>
+    </div>
+    <div class="row">
+      <!-- Mediano -->
+      <div class="col-4">
+        <h1 class="display-1" onclick="showImage(this)">Mediano</h1>
+        <h3>Beagle</h3>
+        <img src="Pic/beagle.jpg" class="img-thumbnail" style="display: none;">
+        <p class="description" style="display: none;">Descripción: Un perro amigable y curioso, excelente compañero.</p>
+      </div>
+
+      <!-- Pequeño -->
+      <div class="col-4">
+        <h1 class="display-1" onclick="showImage(this)">Pequeño</h1>
+        <h3>Pomerania</h3>
+        <img src="Pic/pomerania.jpg" class="img-thumbnail" style="display: none;">
+        <p class="description" style="display: none;">Descripción: Un perro pequeño, lleno de energía y personalidad.</p>
+      </div>
+    </div>
+    <div class="row">
+      <!-- Extra Pequeño -->
+      <div class="col-4">
+        <h1 class="display-1" onclick="showImage(this)">Extra Pequeño</h1>
+        <h3>Chihuahua</h3>
+        <img src="Pic/chihuahua.jpg" class="img-thumbnail" style="display: none;">
+        <p class="description" style="display: none;">Descripción: Un pequeño perro valiente con un gran corazón.</p>
+      </div>
+
+      <div class="col-4">
+        <h1 class="display-1" onclick="showImage(this)">Extra Pequeño</h1>
+        <h3>Bichon Maltes</h3>
+        <img src="Pic/bichon-maltes.jpg" class="img-thumbnail" style="display: none;">
+        <p class="description" style="display: none;">Descripción: considerado el más aristócrata del mundo canino. Como su nombre lo indica, este perro proviene de Malta, una isla al sur de la ciudad de Sicilia.</p>
+      </div>
+    </div>
+  </main>
+
+  <div class="container">
+    <button class="btn-reiniciar" onclick="location.reload();">Reiniciar</button>
+  </div>
+
+  <footer id="footer">
+    <div>
+      <table>
+        <tr>
+          <td><a href="#">Trabajo hecho por la sala 6</a></td>
+          <td><a href="#">desde colombia para el mundo</a></td>
+          <td>+(57) 320 80 80</td>
+        </tr>
+        <tr>
+          <td><a href="#">Adopta</a></td>
+          <td><a href="#">Dirección</a></td>
+          <td>Cll 40 #7-19 - Bogotá</td>
+        </tr>
+      </table>
+    </div>
+  </footer>
+
+  <script>
+    function showImage(element) {
+      const image = element.nextElementSibling.nextElementSibling;
+      const description = image.nextElementSibling;
+
+      if (image.style.display === "none") {
+        image.style.display = "block";
+        description.style.display = "block";
+      } else {
+        image.style.display = "none";
+        description.style.display = "none";
+      }
+    }
+  </script>
+
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>

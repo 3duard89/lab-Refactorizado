@@ -1,0 +1,52 @@
+/* Estilo para los títulos */
+h1, h3 {
+    color: #1ae4bf;
+    text-align: center;
+}
+
+/* Estilo para centrar los párrafos */
+p {
+    text-align: center;
+}
+
+/* Estilo para las imágenes más grandes */
+.img-thumbnail {
+    width: 400px; /* Tamaño aumentado */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block;
+    margin: 0 auto; /* Centra la imagen */
+}
+
+/* Opcional: centrar los títulos para un diseño más uniforme */
+h1.display-1 {
+    text-align: center;
+    font-size:
+     2rem; /* Puedes ajustar el tamaño si es necesario */
+}
+
+.btn-reiniciar {
+    background-color: #1ae4bf;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border: none; 
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-reiniciar:hover {
+    background-color: #c2185b;
+    color: #fff;
+    transform: translateY(-2px);
+  }
+  
+  .btn-reiniciar:active {
+    background-color: #3e8e41;
+    transform: translateY(2px);
+  }
+
+  
